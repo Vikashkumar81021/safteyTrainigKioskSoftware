@@ -1,0 +1,6 @@
+@Safety_Training_Kiosk_Software_HostAddress = http://localhost:5146
+
+GET {{Safety_Training_Kiosk_Software_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
