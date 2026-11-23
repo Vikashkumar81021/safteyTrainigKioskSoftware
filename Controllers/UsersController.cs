@@ -7,8 +7,8 @@ using Safety_Training_Kiosk_Software.Models;
 namespace Safety_Training_Kiosk_Software
 {
     [ApiController]
-    [Route("/api[controller]")]
-    public class UserController
+    [Route("api/[controller]")]
+    public class UserController : ControllerBase
     {
         private readonly AppDbContext _context;
         public UserController(AppDbContext context)
